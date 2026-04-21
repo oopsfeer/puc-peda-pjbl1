@@ -95,7 +95,7 @@ class Deque implements Serializable {
       // Adiciona um novo elemento no inicio do deque.
       if (isFull()) {                             // Verifica se nao ha espaco para nova insercao.
          System.out.println("Erro: deque cheio ao adicionar no inicio.");
-         // Exibe mensagem de erro ao usuario.
+      // Exibe mensagem de erro ao usuario.
          System.exit(1);                  // Encerra o programa com codigo de erro.
       }
       if (isEmpty()) {                           // Verifica se o deque nao tem elementos.
