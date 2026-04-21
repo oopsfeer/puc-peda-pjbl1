@@ -1,3 +1,4 @@
+.gitignore
 *.class
 Deque_com.java
 ObjetoPersistente_com.java
