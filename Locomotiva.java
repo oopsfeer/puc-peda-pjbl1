@@ -1,5 +1,5 @@
 public class Locomotiva extends Vagao {
-   protected double potencia;
+   protected double potencia;                                               // Potência da locomotiva em HP
 
    public Locomotiva(double comprimento, double peso, double potencia) {
       super(comprimento, peso);

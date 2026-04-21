@@ -1,8 +1,8 @@
 import java.io.Serializable;
 
 public abstract class Vagao implements Serializable {
-   protected double comprimento;
-   protected double peso;
+   protected double comprimento;                            // Comprimento do vagão em metros
+   protected double peso;                                   // Peso do vagão em toneladas
 
    public Vagao(double comprimento, double peso) {
       this.comprimento = comprimento;
